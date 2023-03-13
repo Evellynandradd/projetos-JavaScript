@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background: rgb(18, 18, 42);
+    color: white;
+    margin-top: 50px;
+    
+}
+
+input{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.oi{
+    margin-top: 30px;
+}
+
+#btn{
+    margin: 30px;
+    background: rgb(44, 101, 140);
+    padding: 5px;
+
+
+}
+    
+.c2 p{
+    
+    display: inline-block;
+    
+}

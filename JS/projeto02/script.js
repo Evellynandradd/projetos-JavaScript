@@ -1,12 +1,12 @@
-let idade = parseInt(document.querySelector('#idade').value);
-let resultado = document.getElementById('resultado');
+function verificarIdade(event) {
+    event.preventDefault();
 
-function verificarIdade(event){
-    if(idade < 60){
-        resultado.innerHTML = "fila comun"
+    var idade = parseInt(document.querySelector('#idade').value);
+    var resultado = document.getElementById('resultado');
+
+    if (idade < 60) {
+        resultado.innerHTML = "fila comum";
     } else {
-        resultado.innerHTML = "fila prioritaria"
+        resultado.innerHTML = "fila prioritária";
     }
-   
-    event.preventDefault()
 }
